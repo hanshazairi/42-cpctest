@@ -8,7 +8,8 @@ My attempt at a script to grade 42 C Piscine C Projects. May not be 100% accurat
 
 1. Download ```cpcgrader.sh``` to directory that contains your C Piscine C Projects.
 2. Run script using ```bash cpcgrader.sh``` or ```./cpcgrader.sh```.
-3. Follow script prompts.
+3. Script takes optional argument ```keep``` to keep downloaded test files in ```/$PROJECT/$EXERCISE/```.
+4. Follow script prompts.
 
 ## Example
 
