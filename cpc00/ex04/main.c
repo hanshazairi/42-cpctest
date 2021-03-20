@@ -6,7 +6,7 @@
 /*   By: hbaddrul <hbaddrul@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/14 20:46:29 by hbaddrul          #+#    #+#             */
-/*   Updated: 2021/03/15 00:21:44 by hbaddrul         ###   ########.fr       */
+/*   Updated: 2021/03/21 01:09:47 by hbaddrul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ int		main(void)
 	ft_is_negative(-1);
 	ft_is_negative(0);
 	ft_is_negative(1);
+	ft_is_negative(42);
 	ft_is_negative(2147483647);
 	return (0);
 }

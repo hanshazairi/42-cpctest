@@ -6,7 +6,7 @@
 /*   By: hbaddrul <hbaddrul@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/14 20:38:13 by hbaddrul          #+#    #+#             */
-/*   Updated: 2021/03/14 20:38:42 by hbaddrul         ###   ########.fr       */
+/*   Updated: 2021/03/20 22:54:18 by hbaddrul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,12 @@ void	ft_putchar(char c);
 
 int		main(void)
 {
-	ft_putchar('A');
+	int		i;
+	char	c;
+
+	i = 0;
+	c = '\x00';
+	while (i < 256)
+		ft_putchar(c + i++);
 	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: hbaddrul <hbaddrul@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/14 20:54:40 by hbaddrul          #+#    #+#             */
-/*   Updated: 2021/03/15 00:21:59 by hbaddrul         ###   ########.fr       */
+/*   Updated: 2021/03/21 01:08:07 by hbaddrul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,10 @@ void	ft_putnbr(int nb);
 int		main(void)
 {
 	ft_putnbr(-2147483648);
+	ft_putnbr(-1);
 	ft_putnbr(0);
+	ft_putnbr(1);
+	ft_putnbr(42);
 	ft_putnbr(2147483647);
 	return (0);
 }
